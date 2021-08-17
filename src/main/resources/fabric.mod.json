@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "ricemod",
+  "version": "${version}",
+
+  "name": "Tarks Rice Mod",
+  "description": "Adds rice to Minecraft 1.17!",
+  "authors": [
+    "tark"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ricemod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tarksmods.ricemod.RiceMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
