@@ -1,8 +1,12 @@
-# Fabric Example Mod
+# Tarks Rice Mod.
 
-## Setup
+##Description
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Adds various rice related items to Minecraft 1.17
+
+##Author's Comments
+
+This is my first mod, feel free to give it a try!
 
 ## License
 
