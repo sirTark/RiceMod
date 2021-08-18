@@ -9,7 +9,8 @@ import net.tarksmods.ricemod.RiceMod;
 
 public class ModBlocks {
 
-    public static final RiceCropBlock RICE_CROP_BLOCK = new RiceCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static final RiceCropBlock RICE_CROP_BLOCK = new RiceCropBlock(AbstractBlock.Settings
+            .of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static void registerBlocks(){
         Registry.register(Registry.BLOCK, new Identifier(RiceMod.MOD_ID,"rice_crop_block"), RICE_CROP_BLOCK);
