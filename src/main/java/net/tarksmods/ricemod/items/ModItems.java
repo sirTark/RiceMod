@@ -20,13 +20,13 @@ public class ModItems {
     public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUSHI));
 
     // Seed Items.
-    public static final Item RICE_ITEM = new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.MISC));
+    public static final Item RICE_ITEM = new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
 
 
     //Item Registration
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_item"), RICE_ITEM);
-        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"riceball_item"), RICE_BALL_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_ball_item"), RICE_BALL_ITEM);
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"sushi_item"), SUSHI_ITEM);
     }
 }
