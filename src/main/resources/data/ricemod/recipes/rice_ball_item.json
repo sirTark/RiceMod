@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ricemod:rice_item"
+    },
+    {
+      "item": "ricemod:rice_item"
+    },
+    {
+      "item": "ricemod:rice_item"
+    },
+    {
+      "item": "ricemod:rice_item"
+    }
+  ],
+  "result": {
+    "item": "ricemod:rice_ball_item",
+    "count": 2
+  }
+}
