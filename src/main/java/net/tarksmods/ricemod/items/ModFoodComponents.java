@@ -1,4 +1,4 @@
-package net.tarksmods.ricemod.utils;
+package net.tarksmods.ricemod.items;
 
 import net.minecraft.item.FoodComponent;
 

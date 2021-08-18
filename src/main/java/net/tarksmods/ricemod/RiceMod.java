@@ -1,7 +1,8 @@
 package net.tarksmods.ricemod;
 
 import net.fabricmc.api.ModInitializer;
-import net.tarksmods.ricemod.utils.ModItems;
+import net.tarksmods.ricemod.blocks.ModBlocks;;
+import net.tarksmods.ricemod.items.ModItems;
 
 
 public class RiceMod implements ModInitializer {
@@ -11,6 +12,7 @@ public class RiceMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
 
 
     }

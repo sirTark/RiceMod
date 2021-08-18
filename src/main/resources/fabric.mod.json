@@ -18,6 +18,9 @@
 
   "environment": "*",
   "entrypoints": {
+    "Client": [
+      "net.tarksmods.ricemod.client.RiceClient"
+    ],
     "main": [
       "net.tarksmods.ricemod.RiceMod"
     ]

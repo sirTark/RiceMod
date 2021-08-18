@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ricemod:items/riceball_item"
+    "layer0": "ricemod:items/rice_ball_item"
   }
 }
