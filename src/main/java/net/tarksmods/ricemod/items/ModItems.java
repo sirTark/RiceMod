@@ -12,7 +12,7 @@ import net.tarksmods.ricemod.blocks.ModBlocks;
 public class ModItems {
 
     //General Items
-    //public static final Item RICE_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
+    public static final Item RICE_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
 
 
     // Food Items
@@ -20,11 +20,12 @@ public class ModItems {
     public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUSHI));
 
     // Seed Items.
-    public static final Item RICE_ITEM = new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
+    public static final Item RICE_SEED_ITEM = new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
 
 
     //Item Registration
     public static void registerItems(){
+        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_seed_item"), RICE_SEED_ITEM);
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_item"), RICE_ITEM);
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_ball_item"), RICE_BALL_ITEM);
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"sushi_item"), SUSHI_ITEM);
