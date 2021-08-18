@@ -26,9 +26,12 @@ public class RiceCropBlock extends CropBlock {
     }
 
     public ItemConvertible getSeedsItem() {
-        return ModItems.RICE_ITEM;
+        return ModItems.RICE_SEED_ITEM;
     }
+
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return AGE_TO_SHAPE[state.get(this.getAgeProperty())];
     }
+
 }
+
