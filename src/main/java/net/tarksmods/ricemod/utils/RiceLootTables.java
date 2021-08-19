@@ -9,12 +9,8 @@ import net.tarksmods.ricemod.items.RiceItems;
 
 public class RiceLootTables {
 
-
-    // Create an Identifier for the loot table you want to change.
     private static final Identifier CREEPER_LOOT_TABLE_ID = new Identifier("minecraft","entities/creeper");
 
-
-    // Creating the method that will modify the existing loot table.
     public static void modifyLootTables(){
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
 
