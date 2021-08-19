@@ -14,20 +14,24 @@ public class RiceItems {
     //General Items
     public static final Item RICE_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
 
-
     // Food Items
     public static final Item RICE_BALL_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(RiceFoodComponents.RICE_BALL));
-    //public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUSHI));
+    public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(RiceFoodComponents.SUSHI));
 
     // Seed Items.
     public static final Item RICE_SEED_ITEM = new AliasedBlockItem(RiceBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     //Item Registration
     public static void registerItems(){
-        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_seed_item"), RICE_SEED_ITEM);
+
+        //General Items
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_item"), RICE_ITEM);
+        //Seed Items
+        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_seed_item"), RICE_SEED_ITEM);
+        //Food Items
         Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"rice_ball_item"), RICE_BALL_ITEM);
-        //Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"sushi_item"), SUSHI_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(RiceMod.MOD_ID,"sushi_item"), SUSHI_ITEM);
     }
 }
