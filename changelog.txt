@@ -1,7 +1,17 @@
-Tarks Rice Mod - CHANGE LOG.
+Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.0.3
 
---Version 1.0.0
---CREATION DATE: 17/08/2021
 
--Added a new item, "Grains of Rice"
--Added a new edible item, "Rice Ball"
+-- v1.0.3
+
+
+-- v1.0.2
++ Added Rice Seeds to
+^ Updated textures
+
+-- v1.0.1
++
+
+-- v1.0.0
+
++ Added Grains of Rice
++ Added Rice Ball
