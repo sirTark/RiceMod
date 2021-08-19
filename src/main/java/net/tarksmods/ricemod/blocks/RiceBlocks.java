@@ -7,7 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tarksmods.ricemod.RiceMod;
 
-public class ModBlocks {
+public class RiceBlocks {
 
     public static final RiceCropBlock RICE_CROP_BLOCK = new RiceCropBlock(AbstractBlock.Settings
             .of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
