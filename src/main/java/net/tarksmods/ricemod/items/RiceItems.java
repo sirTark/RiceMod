@@ -7,20 +7,20 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tarksmods.ricemod.RiceMod;
-import net.tarksmods.ricemod.blocks.ModBlocks;
+import net.tarksmods.ricemod.blocks.RiceBlocks;
 
-public class ModItems {
+public class RiceItems {
 
     //General Items
     public static final Item RICE_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
 
 
     // Food Items
-    public static final Item RICE_BALL_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.RICE_BALL));
+    public static final Item RICE_BALL_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(RiceFoodComponents.RICE_BALL));
     //public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.SUSHI));
 
     // Seed Items.
-    public static final Item RICE_SEED_ITEM = new AliasedBlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
+    public static final Item RICE_SEED_ITEM = new AliasedBlockItem(RiceBlocks.RICE_CROP_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
 
 
     //Item Registration
