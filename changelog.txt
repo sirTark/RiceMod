@@ -1,17 +1,21 @@
 Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.0.3
 
-
--- v1.0.3
-
+-- v1.1.1
+[^] Changed crafting recipe for Sushi, uses Raw Salmon instead of Tropical Fish.
+-- v1.1
+[+] Added Sushi
+[+] Added Creative Tab
+[^] Improved Textures
+[^] Balanced Food Components
 
 -- v1.0.2
-+ Added Rice Seeds to
-^ Updated textures
+[+] Added Rice Seeds to
+[^] Updated textures
 
 -- v1.0.1
 +
 
 -- v1.0.0
 
-+ Added Grains of Rice
-+ Added Rice Ball
+[+] Added Grains of Rice
+[+] Added Rice Ball
