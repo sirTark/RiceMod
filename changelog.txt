@@ -1,4 +1,4 @@
-Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.0.3
+Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.1.1
 
 -- v1.1.1
 [^] Changed crafting recipe for Sushi, uses Raw Salmon instead of Tropical Fish.
