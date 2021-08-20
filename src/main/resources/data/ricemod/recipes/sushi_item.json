@@ -6,7 +6,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:raw_salmon"
     },
     "S": {
       "item": "ricemod:rice_ball_item"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "ricemod:sushi_item",
-    "count": 1
+    "count": 3
   }
 }
