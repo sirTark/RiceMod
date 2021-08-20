@@ -6,9 +6,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
-import net.tarksmods.ricemod.blocks.RiceBlocks;
-import net.tarksmods.ricemod.items.RiceItems;
-import net.tarksmods.ricemod.utils.RiceLootTables;
+import net.tarksmods.ricemod.blocks.RiceModBlocks;
+import net.tarksmods.ricemod.items.RiceModItems;
+import net.tarksmods.ricemod.utils.RiceModLootTables;
 
 
 public class RiceMod implements ModInitializer {
@@ -25,9 +25,9 @@ public class RiceMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        RiceItems.registerItems();
-        RiceBlocks.registerBlocks();
-        RiceLootTables.modifyLootTables();
+        RiceModItems.registerItems();
+        RiceModBlocks.registerBlocks();
+        RiceModLootTables.modifyLootTables();
     }
 
 }

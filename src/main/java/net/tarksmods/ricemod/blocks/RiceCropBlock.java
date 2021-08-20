@@ -5,7 +5,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.tarksmods.ricemod.items.RiceItems;
+import net.tarksmods.ricemod.items.RiceModItems;
 
 public class RiceCropBlock extends CropBlock {
     private static final VoxelShape[] AGE_TO_SHAPE = new VoxelShape[]{
@@ -27,7 +27,7 @@ public class RiceCropBlock extends CropBlock {
     }
 
     public ItemConvertible getSeedsItem() {
-        return RiceItems.RICE_SEED_ITEM;
+        return RiceModItems.RICE_SEED_ITEM;
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

@@ -7,7 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tarksmods.ricemod.RiceMod;
 
-public class RiceBlocks {
+public class RiceModBlocks {
 
     // New Blocks
     public static final RiceCropBlock RICE_CROP_BLOCK = new RiceCropBlock(AbstractBlock.Settings

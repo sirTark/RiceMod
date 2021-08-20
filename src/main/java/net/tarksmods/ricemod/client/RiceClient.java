@@ -4,7 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
-import static net.tarksmods.ricemod.blocks.RiceBlocks.RICE_CROP_BLOCK;
+import static net.tarksmods.ricemod.blocks.RiceModBlocks.RICE_CROP_BLOCK;
 
 public class RiceClient implements ClientModInitializer {
 

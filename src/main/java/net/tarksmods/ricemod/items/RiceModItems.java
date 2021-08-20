@@ -6,19 +6,19 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.tarksmods.ricemod.RiceMod;
-import net.tarksmods.ricemod.blocks.RiceBlocks;
+import net.tarksmods.ricemod.blocks.RiceModBlocks;
 
-public class RiceItems {
+public class RiceModItems {
 
     //General Items
     public static final Item RICE_ITEM = new Item(new FabricItemSettings().group(RiceMod.RICE_ITEM_GROUP));
 
     // Food Items
-    public static final Item RICE_BALL_ITEM = new Item(new FabricItemSettings().group(RiceMod.RICE_ITEM_GROUP).food(RiceFoodComponents.RICE_BALL));
-    public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(RiceMod.RICE_ITEM_GROUP).food(RiceFoodComponents.SUSHI));
+    public static final Item RICE_BALL_ITEM = new Item(new FabricItemSettings().group(RiceMod.RICE_ITEM_GROUP).food(RiceModFoodComponents.RICE_BALL));
+    public static final Item SUSHI_ITEM = new Item(new FabricItemSettings().group(RiceMod.RICE_ITEM_GROUP).food(RiceModFoodComponents.SUSHI));
 
     // Seed Items.
-    public static final Item RICE_SEED_ITEM = new AliasedBlockItem(RiceBlocks.RICE_CROP_BLOCK, new Item.Settings().group(RiceMod.RICE_ITEM_GROUP));
+    public static final Item RICE_SEED_ITEM = new AliasedBlockItem(RiceModBlocks.RICE_CROP_BLOCK, new Item.Settings().group(RiceMod.RICE_ITEM_GROUP));
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
