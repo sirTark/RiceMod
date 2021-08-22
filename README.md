@@ -18,6 +18,7 @@ This is my first mod, feel free to give it a try!
 
 <h3>Seeds</h3>
 
+Rice seeds are obtainable from breaking grass, they have a ten percent change to drop.
 
 
 
