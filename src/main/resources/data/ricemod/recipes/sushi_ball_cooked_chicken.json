@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "ricemod:rice_ball_item"
+    },
+    "G": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "result": {
+    "item": "ricemod:sushi_ball",
+    "count": 3
+  }
+}

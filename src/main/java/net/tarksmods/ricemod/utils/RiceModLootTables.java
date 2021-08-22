@@ -9,14 +9,14 @@ import net.tarksmods.ricemod.items.RiceModItems;
 
 public class RiceModLootTables {
 
-    private static final Identifier CREEPER_LOOT_TABLE_ID = new Identifier("minecraft","entities/creeper");
+    private static final Identifier GRASS_LOOT_TABLE_ID = new Identifier("minecraft","blocks/grass");
 
     public static void modifyLootTables(){
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
 
-            if(CREEPER_LOOT_TABLE_ID.equals(id)) {
+            if(GRASS_LOOT_TABLE_ID.equals(id)) {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(BinomialLootNumberProvider.create(1,0.01f))
+                        .rolls(BinomialLootNumberProvider.create(1,0.10f))
                         .withEntry(ItemEntry.builder(RiceModItems.RICE_SEED_ITEM).build());
                 supplier.withPool(poolBuilder.build());
             }

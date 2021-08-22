@@ -1,4 +1,10 @@
-Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.1.1
+Tarks_Rice_Mod - CHANGE LOG: --CREATION_DATE: 17/08/2021 --LATEST_VERSION: v1.1.2
+
+
+-- v1.1.2
+[+] Added Sushi Ball
+[^] Added cod and cooked chicken as options for sushi and sushi ball.
+[^] Changed loot drop for Rice seeds, you can now get them from breaking grass. 10% drop chance.
 
 -- v1.1.1
 [^] Changed crafting recipe for Sushi, uses Raw Salmon instead of Tropical Fish.

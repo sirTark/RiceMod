@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "SDS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "S": {
+      "item": "ricemod:rice_ball_item"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "ricemod:sushi_item",
+    "count": 3
+  }
+}
