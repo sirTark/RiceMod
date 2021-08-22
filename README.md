@@ -20,6 +20,9 @@ This is my first mod, feel free to give it a try!
 
 Rice seeds are obtainable from breaking grass, they have a ten percent change to drop.
 
+![seeds_drop](https://user-images.githubusercontent.com/89249210/130351759-6c95a266-7d77-4360-9c03-3abe661630b0.gif)
+
+
 
 
 
