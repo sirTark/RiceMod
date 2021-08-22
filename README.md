@@ -10,12 +10,11 @@ This is my first mod, feel free to give it a try!
 
 <h3>Rice Ball</h3>
 
-![image](https://user-images.githubusercontent.com/89249210/130351467-fee60197-80dd-48a1-bbf8-0dfb91c52857.png)
+![rec_2](https://user-images.githubusercontent.com/89249210/130351541-5a545776-d11c-4c95-80cd-f4045086d6e9.png)
 
 <h3>Sushi</h3>
 
-![image](https://user-images.githubusercontent.com/89249210/130351471-b247d43b-b275-4156-b6ea-feb4ab981998.png)
-
+![rec_1](https://user-images.githubusercontent.com/89249210/130351524-23bd5fbe-0e64-49b3-94d6-0532a38350a2.png)
 
 <h3>Seeds</h3>
 
