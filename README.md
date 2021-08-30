@@ -23,6 +23,10 @@ Rice seeds are obtainable from breaking grass, they have a ten percent change to
 ![seeds_drop](https://user-images.githubusercontent.com/89249210/130351759-6c95a266-7d77-4360-9c03-3abe661630b0.gif)
 
 
+We have a discord server: https://discord.gg/E6B3DVfBtZ
+
+^ Feel free to join.
+
 
 
 
